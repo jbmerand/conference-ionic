@@ -2,10 +2,11 @@ language: node_js
 node_js:
   - "12"
 before_script:
-  - npm install
-script: npm run build
+  — npm install -g ionic cordova
+script:
+  — ionic cordova build browser — prod
 deploy:
-  local-dir: dist/conference-ionic
+  local-dir: www
   provider: pages
   skip-cleanup: true
   github-token: $GITHUB_TOKEN  # Set in travis-ci.org dashboard, marked secure
