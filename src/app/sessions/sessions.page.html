@@ -1,0 +1,21 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>
+      Sessions
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card class="welcome-card ion-text-center">
+    <ion-card-content *ngFor="let session of sessionsData"
+                      class="ion-no-padding ion-padding-top ion-padding-start ion-padding-end">
+      <a routerLink="/sessions/{{session.id}}">
+        {{session.titleMobile || session.title}}
+      </a>
+    </ion-card-content>
+  </ion-card>
+</ion-content>
