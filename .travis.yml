@@ -3,9 +3,7 @@ node_js:
   - "12"
 before_script:
   - npm install
-script:
-  - npm run build
-  - cp dist/conference-ionic/index.html dist/conference-ionic/404.html
+script: npm run build
 deploy:
   local-dir: dist/conference-ionic
   provider: pages
