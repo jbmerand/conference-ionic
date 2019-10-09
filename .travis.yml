@@ -2,9 +2,9 @@ language: node_js
 node_js:
   - "12"
 before_script:
-  — npm install -g ionic cordova
+  - npm install
 script:
-  — ionic cordova build browser — prod
+  - ionic build
 deploy:
   local-dir: www
   provider: pages
