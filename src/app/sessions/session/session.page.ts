@@ -4,10 +4,13 @@ import {DataService} from '../../services/data.service';
 import {ActivatedRoute, ParamMap} from '@angular/router';
 import {Speaker} from '../../entities/speaker';
 
+/**
+ * Composant gérant la page de description d'une session.
+ */
 @Component({
     selector: 'app-session',
     templateUrl: './session.page.html',
-    styleUrls: ['./session.page.scss'],
+    styles: [],
 })
 export class SessionPage implements OnInit {
 
@@ -18,11 +21,19 @@ export class SessionPage implements OnInit {
     isErreurRecuperationSession: boolean;
     isErreurRecuperationPresentateurs: boolean;
 
+    /**
+     * Constructeur
+     * @param dataService : DataService
+     * @param route : ActivatedRoute
+     */
     constructor(private dataService: DataService, private route: ActivatedRoute) {
         this.sessionId = route.snapshot.paramMap.get('id');
     }
 
-    recupererLesDonnees() {
+    /**
+     * Méthode récupérant les données nécessaires à l'affichage de la page.
+     */
+    recupererLesDonnees(): void {
         this.dataService.recupererDonneesSessions().subscribe(
             (sessions => {
                 this.isErreurRecuperationSession = false;
@@ -42,7 +53,7 @@ export class SessionPage implements OnInit {
         );
     }
 
-    ngOnInit() {
+    ngOnInit(): void {
         this.route.paramMap.subscribe((params: ParamMap) => {
             const sessionId = params.get('id');
         });

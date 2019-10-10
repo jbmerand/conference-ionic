@@ -5,10 +5,13 @@ import {Session} from '../../../entities/session';
 import {Note} from './note';
 import {SessionsService} from '../../sessions.service';
 
+/**
+ * Composant gérant l'affichage de la page de note sur une session.
+ */
 @Component({
     selector: 'app-notes',
     templateUrl: './notes.page.html',
-    styleUrls: ['./notes.page.scss'],
+    styles: [],
 })
 export class NotesPage implements OnInit {
 
@@ -17,11 +20,20 @@ export class NotesPage implements OnInit {
     isErreurRecuperationSession: boolean;
     contenuNote: string;
 
+    /**
+     * Constructeur
+     * @param route : ActivatedRoute
+     * @param dataService : DataService
+     * @param sessionsService : SessionsService
+     */
     constructor(private route: ActivatedRoute, private dataService: DataService,
                 private sessionsService: SessionsService) {
         this.sessionId = route.snapshot.paramMap.get('id');
     }
 
+    /**
+     * Méthode récupérant les données nécessaires à l'affichage de la page.
+     */
     recupererDonnees(): void {
         this.dataService.recupererDonneesSessions().subscribe(
             (sessions => this.sessionData = sessions.find(
@@ -36,6 +48,9 @@ export class NotesPage implements OnInit {
         }
     }
 
+    /**
+     * Méthode pour enregistrer une note en sollicitant un service.
+     */
     enregistrerNote(): void {
         const note: Note = {sessionId: this.sessionId, message: this.contenuNote};
         this.sessionsService.sauvegarderNote(note);

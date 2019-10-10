@@ -1,6 +1,10 @@
 import {Injectable} from '@angular/core';
 import {Note} from './session/notes/note';
 
+/**
+ * Classe de service regroupant les méthodes utiles pour les pages commençant par
+ * /sessions.
+ */
 @Injectable({
     providedIn: 'root'
 })
@@ -11,6 +15,12 @@ export class SessionsService {
     constructor() {
     }
 
+    /**
+     * Méthode permettant de sauvegarder la note renseignée qui concerne une
+     * session dans le cache ou de la mettre à jour si elle existe déjà.
+     * @param note : Note la note renseignée par l'utilisateur
+     * @return : void
+     */
     sauvegarderNote(note: Note): void {
         if (!localStorage.getItem('NotesSessions')) {
             this.notes = [];
@@ -27,6 +37,11 @@ export class SessionsService {
         }
     }
 
+    /**
+     * Méthode permettant de retourner la note écrite pour la session indiquée.
+     * @param sessionId : string l'id de la session
+     * @return : Note ou null
+     */
     recupererNoteParIdSession(sessionId: string): Note | null {
         if (localStorage.getItem('NotesSessions')) {
             this.notes = JSON.parse(localStorage.getItem('NotesSessions'));

@@ -1,3 +1,6 @@
+/**
+ * Interface d'un présentateur du DevFest.
+ */
 export interface Speaker {
     id: number | string;
     name: string;

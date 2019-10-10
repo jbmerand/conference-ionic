@@ -1,3 +1,6 @@
+/**
+ * Interface d'une session du DevFest.
+ */
 export interface Session {
     id: number;
     title: string;

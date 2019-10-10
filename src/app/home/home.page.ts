@@ -2,10 +2,13 @@ import {Component, OnInit} from '@angular/core';
 import {DataService} from '../services/data.service';
 import {Scheduled} from '../entities/scheduled';
 
+/**
+ * Composant gérant la page d'accueil.
+ */
 @Component({
     selector: 'app-home',
     templateUrl: 'home.page.html',
-    styleUrls: ['home.page.scss'],
+    styles: ['#logoImg { width: 300px; height: 300px; }'],
 })
 export class HomePage implements OnInit {
 
@@ -13,6 +16,10 @@ export class HomePage implements OnInit {
     dateFinConf: string;
     scheduleData: Scheduled[];
 
+    /**
+     * Constructeur
+     * @param dataService : DataService
+     */
     constructor(private dataService: DataService) {
     }
 
