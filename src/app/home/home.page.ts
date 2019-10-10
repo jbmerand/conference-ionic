@@ -9,23 +9,29 @@ import {Scheduled} from '../entities/scheduled';
 })
 export class HomePage implements OnInit {
 
-  dateDebutConf: string;
-  dateFinConf: string;
-  scheduleData: Scheduled[];
+    dateDebutConf: string;
+    dateFinConf: string;
+    scheduleData: Scheduled[];
 
     constructor(private dataService: DataService) {
     }
 
     ngOnInit(): void {
-      if (!localStorage.getItem('scheduleData')) {
-        this.dataService.recupererDonneesScheduleApiDevFest().subscribe(
-            (donnees) => {
-              console.log(donnees);
-              localStorage.setItem('scheduleData', JSON.stringify(donnees));
-            });
-      }
-      this.scheduleData = JSON.parse(localStorage.getItem('scheduleData'));
-      this.dateDebutConf = this.scheduleData[0].dateReadable;
-      this.dateFinConf = this.scheduleData[this.scheduleData.length - 1].dateReadable;
+        if (!localStorage.getItem('scheduleData')) {
+            this.dataService.recupererDonneesScheduleApiDevFest().subscribe(
+                (donnees) => {
+                    localStorage.setItem('scheduleData', JSON.stringify(donnees));
+                    this.scheduleData = donnees;
+                    this.dateDebutConf = this.scheduleData[0].dateReadable;
+                    this.dateFinConf = this.scheduleData[this.scheduleData.length - 1].dateReadable;
+                });
+        }
+        this.scheduleData = JSON.parse(localStorage.getItem('scheduleData'));
+        if (this.scheduleData) {
+            this.dateDebutConf = this.scheduleData[0].dateReadable;
+            this.dateFinConf = this.scheduleData[this.scheduleData.length - 1].dateReadable;
+        }
+        this.dataService.recupererDonneesSessions().subscribe();
+        this.dataService.recupererDonneesSpeakers().subscribe();
     }
 }

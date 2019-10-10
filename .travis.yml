@@ -5,6 +5,7 @@ before_script:
   - npm install
 script:
   - npm run build
+  - cp www/index.html www/404.html
 deploy:
   local-dir: www
   provider: pages

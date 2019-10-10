@@ -13,16 +13,16 @@ const URL_API_DEVFEST = 'https://devfest-nantes-2018-api.cleverapps.io';
 })
 export class DataService {
 
-    constructor(private httpClient: HttpClient) {
-
-    }
+    constructor(private httpClient: HttpClient) {}
 
     recupererDonneesSpeakersApiDevFest(): Observable<Speaker[]> {
-        return this.httpClient.get<any>(`${URL_API_DEVFEST}/speakers`).pipe(map(speakers => Object.values(speakers)));
+        return this.httpClient.get<any>(`${URL_API_DEVFEST}/speakers`)
+            .pipe(map(speakers => Object.values(speakers)));
     }
 
     recupererDonneesSessionsApiDevFest(): Observable<Session[]> {
-        return this.httpClient.get<any>(`${URL_API_DEVFEST}/sessions`).pipe(map(sessions => Object.values(sessions)));
+        return this.httpClient.get<any>(`${URL_API_DEVFEST}/sessions`)
+            .pipe(map(sessions => Object.values(sessions)));
     }
 
     recupererDonneesScheduleApiDevFest(): Observable<Scheduled[]> {

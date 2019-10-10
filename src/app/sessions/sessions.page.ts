@@ -5,7 +5,7 @@ import {Session} from '../entities/session';
 @Component({
     selector: 'app-sessions',
     templateUrl: './sessions.page.html',
-    styleUrls: ['./sessions.page.scss'],
+    styles: [],
 })
 export class SessionsPage implements OnInit {
 

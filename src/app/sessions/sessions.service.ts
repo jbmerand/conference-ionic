@@ -28,9 +28,13 @@ export class SessionsService {
     }
 
     recupererNoteParIdSession(sessionId: string): Note | null {
-        this.notes = JSON.parse(localStorage.getItem('NotesSessions'));
-        if (this.notes.find(noteLS => noteLS.sessionId === sessionId)) {
-            return this.notes.find(noteLS => noteLS.sessionId === sessionId);
+        if (localStorage.getItem('NotesSessions')) {
+            this.notes = JSON.parse(localStorage.getItem('NotesSessions'));
+            if (this.notes.find(noteLS => noteLS.sessionId === sessionId)) {
+                return this.notes.find(noteLS => noteLS.sessionId === sessionId);
+            } else {
+                return null;
+            }
         } else {
             return null;
         }
