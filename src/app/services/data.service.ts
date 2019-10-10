@@ -4,7 +4,7 @@ import {HttpClient} from '@angular/common/http';
 import {Speaker} from '../entities/speaker';
 import {Session} from '../entities/session';
 import {Scheduled} from '../entities/scheduled';
-import {map} from 'rxjs/operators';
+import {map, tap} from 'rxjs/operators';
 
 const URL_API_DEVFEST = 'https://devfest-nantes-2018-api.cleverapps.io';
 
@@ -54,32 +54,18 @@ export class DataService {
 
     /**
      * Sollicite les données dans le cache ou lance la méthode qui fait une
-     * requête auprès de l'API du DevFest pour retourner les données des événements.
-     * @return : Observable<Scheduled[]> observable du tableau des événements.
-     */
-    recupererDonneesSchedule(): Observable<Scheduled[]> {
-        if (!localStorage.getItem('scheduleData')) {
-            this.recupererDonneesScheduleApiDevFest().subscribe(
-                (donnees) => {
-                    localStorage.setItem('scheduleData', JSON.stringify(donnees));
-                });
-        }
-        return of(JSON.parse(localStorage.getItem('scheduleData')));
-    }
-
-    /**
-     * Sollicite les données dans le cache ou lance la méthode qui fait une
      * requête auprès de l'API du DevFest pour retourner les données des sessions.
      * @return : Observable<Session[]> observable du tableau des sessions
      */
     recupererDonneesSessions(): Observable<Session[]> {
         if (!localStorage.getItem('sessionsData')) {
-            this.recupererDonneesSessionsApiDevFest().subscribe(
+            return this.recupererDonneesSessionsApiDevFest().pipe(tap(
                 (donnees) => {
                     localStorage.setItem('sessionsData', JSON.stringify(donnees));
-                });
+                }));
+        } else {
+            return of(JSON.parse(localStorage.getItem('sessionsData')));
         }
-        return of(JSON.parse(localStorage.getItem('sessionsData')));
     }
 
     /**
@@ -90,11 +76,12 @@ export class DataService {
      */
     recupererDonneesSpeakers(): Observable<Speaker[]> {
         if (!localStorage.getItem('speakersData')) {
-            this.recupererDonneesSpeakersApiDevFest().subscribe(
+            return this.recupererDonneesSpeakersApiDevFest().pipe(tap(
                 (donnees) => {
                     localStorage.setItem('speakersData', JSON.stringify(donnees));
-                });
+                }));
+        } else {
+            return of(JSON.parse(localStorage.getItem('speakersData')));
         }
-        return of(JSON.parse(localStorage.getItem('speakersData')));
     }
 }
