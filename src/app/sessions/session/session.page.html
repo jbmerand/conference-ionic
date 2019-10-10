@@ -1,7 +1,10 @@
-<ion-header>
+<ion-header class="ion-text-center">
     <ion-toolbar>
         <ion-buttons slot="start">
             <ion-back-button icon="arrow-back" text=""></ion-back-button>
+        </ion-buttons>
+        <ion-buttons slot="end">
+            <ion-menu-button></ion-menu-button>
         </ion-buttons>
         <ion-title>Session</ion-title>
     </ion-toolbar>
@@ -10,7 +13,7 @@
 <ion-content>
     <ion-card>
         <ion-card-header>
-            <h1>{{sessionData.titleMobile || sessionData.title}}</h1>
+            <h1>{{sessionData?.titleMobile || sessionData?.title}}</h1>
         </ion-card-header>
         <ion-card-content>
             <ng-container *ngIf="!isErreurRecuperationSession">
@@ -18,15 +21,19 @@
                     <em>{{sessionData.description || "Pas de description disponible."}}</em>
                 </p>
                 <ng-container *ngIf="presentateursData.length > 0">
-                    <h2 class="ion-padding-top ion-padding-end">Présentateur(s)</h2>
+                    <h2 class="ion-padding-top ion-padding-end">
+                        Présentateur(s)</h2>
                     <ion-list>
-                        <ion-item *ngFor="let presentateur of presentateursData">
+                        <ion-item
+                                *ngFor="let presentateur of presentateursData">
                             <ion-avatar slot="start">
                                 <img [src]="urlBlogDevFest.concat(presentateur.photoUrl)"
                                      alt="photo du présentateur">
                             </ion-avatar>
                             <ion-label>
-                                <a href="">{{presentateur.name}}</a>
+                                <a routerLink="/speakers/{{presentateur.id}}">
+                                    {{presentateur.name}}
+                                </a>
                             </ion-label>
                         </ion-item>
                     </ion-list>
@@ -37,9 +44,7 @@
                     <p>Une erreur s'est produite dans la récupération des
                         données de la session.</p>
                 </ion-text>
-
             </ng-container>
-
         </ion-card-content>
     </ion-card>
 </ion-content>

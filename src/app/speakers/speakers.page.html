@@ -1,32 +1,45 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-buttons slot="start">
-      <ion-back-button text="" icon="arrow-back"></ion-back-button>
-    </ion-buttons>
-    <ion-buttons slot="end">
-      <ion-menu-button></ion-menu-button>
-    </ion-buttons>
-    <ion-title>
-      Présentateurs
-    </ion-title>
-  </ion-toolbar>
+<ion-header class="ion-text-center">
+    <ion-toolbar>
+        <ion-buttons slot="start">
+            <ion-back-button icon="arrow-back" text=""></ion-back-button>
+        </ion-buttons>
+        <ion-buttons slot="end">
+            <ion-menu-button></ion-menu-button>
+        </ion-buttons>
+        <ion-title>
+            Présentateurs
+        </ion-title>
+    </ion-toolbar>
 </ion-header>
 
 <ion-content>
-  <ion-card class="welcome-card ion-text-center">
-    <ion-card-content *ngFor="let presentateur of presentateursData"
-                      class="ion-no-padding ion-padding-top ion-padding-start ion-padding-end">
-      <ng-container *ngIf="!isErreurRecuperationPresentateurss">
-        <a routerLink="/presentateurs/{{presentateur.id}}">
-          {{presentateur.name}}
-        </a>
-      </ng-container>
-      <ng-container *ngIf="isErreurRecuperationPresentateurs">
-        <ion-text color="danger">
-          <p>Une erreur dans la récupération des présentateurs
-            s'est produite.</p>
-        </ion-text>
-      </ng-container>
-    </ion-card-content>
-  </ion-card>
+    <ion-card>
+        <ion-card-content
+                class="ion-no-padding ion-padding-top ion-padding-start ion-padding-end">
+            <ng-container *ngIf="!isErreurRecuperationPresentateurs">
+                <ng-container *ngIf="presentateursData.length > 0">
+                    <ion-list>
+                        <ion-item
+                                *ngFor="let presentateur of presentateursData">
+                            <ion-avatar slot="start">
+                                <img [src]="urlBlogDevFest.concat(presentateur.photoUrl)"
+                                     alt="photo du présentateur">
+                            </ion-avatar>
+                            <ion-label>
+                                <a routerLink="/speakers/{{presentateur.id}}">
+                                  {{presentateur.name}}
+                                </a>
+                            </ion-label>
+                        </ion-item>
+                    </ion-list>
+                </ng-container>
+            </ng-container>
+            <ng-container *ngIf="isErreurRecuperationPresentateurs">
+                <ion-text color="danger">
+                    <p>Une erreur dans la récupération des présentateurs
+                        s'est produite.</p>
+                </ion-text>
+            </ng-container>
+        </ion-card-content>
+    </ion-card>
 </ion-content>

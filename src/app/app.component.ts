@@ -22,7 +22,7 @@ export class AppComponent {
             icon: 'megaphone'
         },
         {
-            title: 'Speakers',
+            title: 'Présentateurs',
             url: '/speakers',
             icon: 'mic'
         }
