@@ -1,0 +1,39 @@
+<ion-header class="ion-text-center">
+    <ion-toolbar>
+        <ion-buttons slot="start">
+            <ion-back-button icon="arrow-back" text=""></ion-back-button>
+        </ion-buttons>
+        <ion-buttons slot="end">
+            <ion-menu-button></ion-menu-button>
+        </ion-buttons>
+        <ion-title>Mes notes</ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <ion-card>
+        <ion-card-header>
+            <h1>{{sessionData?.titleMobile || sessionData?.title}}</h1>
+        </ion-card-header>
+        <ion-card-content>
+            <ng-container *ngIf="!isErreurRecuperationSession">
+                <form (ngSubmit)="enregistrerNote()">
+                    <ion-textarea [(ngModel)]="contenuNote"
+                                  auto-grow="true"
+                                  name="contenuNote"
+                                  placeholder="Cette conférence...">
+                    </ion-textarea>
+                    <ion-button (click)="enregistrerNote()" expand="block">
+                        Enregistrer
+                    </ion-button>
+                </form>
+            </ng-container>
+            <ng-container *ngIf="isErreurRecuperationSession">
+                <ion-text color="danger">
+                    <p>Une erreur s'est produite dans la récupération des
+                        données de la session.</p>
+                </ion-text>
+            </ng-container>
+        </ion-card-content>
+    </ion-card>
+</ion-content>
