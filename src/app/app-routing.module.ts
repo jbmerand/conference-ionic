@@ -12,7 +12,12 @@ const routes: Routes = [
         loadChildren: () => import('./home/home.module').then(m => m.HomePageModule)
     },
     {
-      path: 'sessions', loadChildren: './sessions/sessions.module#SessionsPageModule'
+        path: 'sessions',
+        loadChildren: () => import('./sessions/sessions.module').then(m => m.SessionsPageModule)
+    },
+    {
+        path: 'speakers',
+        loadChildren: () => import('./speakers/speakers.module').then(m => m.SpeakersPageModule)
     }
 ];
 

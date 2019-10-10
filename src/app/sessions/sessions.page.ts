@@ -1,22 +1,28 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import {DataService} from '../services/data.service';
 import {Session} from '../entities/session';
 
 @Component({
-  selector: 'app-sessions',
-  templateUrl: './sessions.page.html',
-  styleUrls: ['./sessions.page.scss'],
+    selector: 'app-sessions',
+    templateUrl: './sessions.page.html',
+    styleUrls: ['./sessions.page.scss'],
 })
 export class SessionsPage implements OnInit {
 
-  sessionsData: Session[];
+    sessionsData: Session[];
+    isErreurRecuperationSessions: boolean;
 
-  constructor(private dataService: DataService) {
-  }
+    constructor(private dataService: DataService) {
+    }
 
-  ngOnInit(): void {
-    this.sessionsData = this.dataService.recupererDonneesSessions();
-    console.log(this.sessionsData);
-  }
+    ngOnInit(): void {
+        this.dataService.recupererDonneesSessions().subscribe(
+            (sessions => {
+                this.isErreurRecuperationSessions = false;
+                this.sessionsData = sessions;
+            }),
+            (() => this.isErreurRecuperationSessions = true)
+        );
+    }
 
 }

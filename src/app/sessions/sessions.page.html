@@ -1,21 +1,32 @@
 <ion-header>
-  <ion-toolbar>
-    <ion-buttons slot="start">
-      <ion-menu-button></ion-menu-button>
-    </ion-buttons>
-    <ion-title>
-      Sessions
-    </ion-title>
-  </ion-toolbar>
+    <ion-toolbar>
+      <ion-buttons slot="start">
+        <ion-back-button text="" icon="arrow-back"></ion-back-button>
+      </ion-buttons>
+        <ion-buttons slot="end">
+            <ion-menu-button></ion-menu-button>
+        </ion-buttons>
+        <ion-title>
+            Sessions
+        </ion-title>
+    </ion-toolbar>
 </ion-header>
 
 <ion-content>
-  <ion-card class="welcome-card ion-text-center">
-    <ion-card-content *ngFor="let session of sessionsData"
-                      class="ion-no-padding ion-padding-top ion-padding-start ion-padding-end">
-      <a routerLink="/sessions/{{session.id}}">
-        {{session.titleMobile || session.title}}
-      </a>
-    </ion-card-content>
-  </ion-card>
+    <ion-card class="welcome-card ion-text-center">
+        <ion-card-content *ngFor="let session of sessionsData"
+                          class="ion-no-padding ion-padding-top ion-padding-start ion-padding-end">
+            <ng-container *ngIf="!isErreurRecuperationSessions">
+                <a routerLink="/sessions/{{session.id}}">
+                    {{session.titleMobile || session.title}}
+                </a>
+            </ng-container>
+            <ng-container *ngIf="isErreurRecuperationSessions">
+              <ion-text color="danger">
+                  <p>Une erreur dans la récupération des sessions
+                      s'est produite.</p>
+              </ion-text>
+            </ng-container>
+        </ion-card-content>
+    </ion-card>
 </ion-content>

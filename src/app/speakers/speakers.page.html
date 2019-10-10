@@ -1,0 +1,32 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button text="" icon="arrow-back"></ion-back-button>
+    </ion-buttons>
+    <ion-buttons slot="end">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>
+      Présentateurs
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card class="welcome-card ion-text-center">
+    <ion-card-content *ngFor="let presentateur of presentateursData"
+                      class="ion-no-padding ion-padding-top ion-padding-start ion-padding-end">
+      <ng-container *ngIf="!isErreurRecuperationPresentateurss">
+        <a routerLink="/presentateurs/{{presentateur.id}}">
+          {{presentateur.name}}
+        </a>
+      </ng-container>
+      <ng-container *ngIf="isErreurRecuperationPresentateurs">
+        <ion-text color="danger">
+          <p>Une erreur dans la récupération des présentateurs
+            s'est produite.</p>
+        </ion-text>
+      </ng-container>
+    </ion-card-content>
+  </ion-card>
+</ion-content>

@@ -1,5 +1,5 @@
 export interface Speaker {
-    id: number;
+    id: number | string;
     name: string;
     featured: boolean;
     company: string;

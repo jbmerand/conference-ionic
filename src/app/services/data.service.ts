@@ -1,5 +1,5 @@
 import {Injectable} from '@angular/core';
-import {Observable} from 'rxjs';
+import {Observable, of} from 'rxjs';
 import {HttpClient} from '@angular/common/http';
 import {Speaker} from '../entities/speaker';
 import {Session} from '../entities/session';
@@ -29,23 +29,23 @@ export class DataService {
         return this.httpClient.get<any>(`${URL_API_DEVFEST}/schedule`);
     }
 
-    recupererDonneesSessions(): Session[] {
+    recupererDonneesSessions(): Observable<Session[]> {
         if (!localStorage.getItem('sessionsData')) {
             this.recupererDonneesSessionsApiDevFest().subscribe(
                 (donnees) => {
                     localStorage.setItem('sessionsData', JSON.stringify(donnees));
                 });
         }
-        return JSON.parse(localStorage.getItem('sessionsData'));
+        return of(JSON.parse(localStorage.getItem('sessionsData')));
     }
 
-    recupererDonneesSpeakers(): Speaker[] {
+    recupererDonneesSpeakers(): Observable<Speaker[]> {
         if (!localStorage.getItem('speakersData')) {
             this.recupererDonneesSpeakersApiDevFest().subscribe(
                 (donnees) => {
                     localStorage.setItem('speakersData', JSON.stringify(donnees));
                 });
         }
-        return JSON.parse(localStorage.getItem('speakersData'));
+        return of(JSON.parse(localStorage.getItem('speakersData')));
     }
 }
