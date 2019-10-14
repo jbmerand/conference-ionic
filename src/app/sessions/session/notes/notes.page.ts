@@ -5,7 +5,7 @@ import {Session} from '../../../entities/session';
 import {Note} from './note';
 import {SessionsService} from '../../sessions.service';
 import {CameraResultType, CameraSource, Plugins} from '@capacitor/core';
-import {DomSanitizer, SafeResourceUrl, SafeUrl} from '@angular/platform-browser';
+import {DomSanitizer, SafeUrl} from '@angular/platform-browser';
 
 /**
  * Composant gérant l'affichage de la page de note sur une session.
@@ -23,6 +23,7 @@ export class NotesPage implements OnInit {
     isErreurRecuperationSession: boolean;
     contenuNote: string;
     isErreurPriseDePhoto: boolean;
+    isErreurRecuperationPhoto: boolean;
     imagesUrlBase64: string[];
     imagesUrlBase64Sanitized: SafeUrl[];
 
@@ -67,7 +68,6 @@ export class NotesPage implements OnInit {
      */
     enregistrerNote(): void {
         const note: Note = {sessionId: this.sessionId, message: this.contenuNote, images: this.imagesUrlBase64};
-        console.log(note.images);
         this.sessionsService.sauvegarderNote(note);
     }
 
@@ -82,9 +82,11 @@ export class NotesPage implements OnInit {
             source: CameraSource.Camera
         }).then(
             response => {
+                this.isErreurPriseDePhoto = false;
                 this.imagesUrlBase64.push('data:image/jpeg;base64, ' + response.base64String);
                 this.imagesUrlBase64Sanitized = this.sanitizeTableauDUrls(this.imagesUrlBase64);
-            }
+            },
+            () => this.isErreurPriseDePhoto = true
         );
     }
 
@@ -99,14 +101,16 @@ export class NotesPage implements OnInit {
             source: CameraSource.Photos
         }).then(
             response => {
+                this.isErreurRecuperationPhoto = false;
                 this.imagesUrlBase64.push('data:image/jpeg;base64, ' + response.base64String);
                 this.imagesUrlBase64Sanitized = this.sanitizeTableauDUrls(this.imagesUrlBase64);
-            }
+            },
+            () => this.isErreurRecuperationPhoto = true
         );
     }
 
     /**
-     * Sécurise un tableau de liens pour un chargement html
+     * Sécurise un tableau de liens pour un chargement html.
      * @param tableau : string[]
      * @return : SafeUrl[]
      */
