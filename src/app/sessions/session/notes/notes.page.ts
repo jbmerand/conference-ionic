@@ -91,11 +91,11 @@ export class NotesPage implements OnInit {
     /**
      * Laisse à utilisateur la possibilité de charger une photo existante dans le html.
      */
-    async chercherUnePhoto(): Promise<void> {
-        const image = await Plugins.Camera.getPhoto({
+    chercherUnePhoto(): void {
+        Plugins.Camera.getPhoto({
             quality: 90,
-            allowEditing: false,
-            resultType: CameraResultType.Uri,
+            allowEditing: true,
+            resultType: CameraResultType.Base64,
             source: CameraSource.Photos
         }).then(
             response => {
