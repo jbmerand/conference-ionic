@@ -1,0 +1,1744 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="43ce7693-91bb-48e9-b585-5ce891ec180d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../.gradle/4.10.1/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.gradle/4.10.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.gradle/4.10.1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.gradle/4.10.1/taskHistory/taskHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/.npmignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/capacitor.build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/getcapacitor/myapp/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/capacitor.config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/public/cordova.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/public/cordova_plugins.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/public/default~notes-notes-module~telephone-telephone-module-es2015.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/public/default~notes-notes-module~telephone-telephone-module-es2015.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/public/default~notes-notes-module~telephone-telephone-module-es5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/public/default~notes-notes-module~telephone-telephone-module-es5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/public/native-bridge.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/public/plugins/cordova-plugin-camera/www/Camera.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/public/plugins/cordova-plugin-camera/www/CameraConstants.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/public/plugins/cordova-plugin-camera/www/CameraPopoverHandle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/public/plugins/cordova-plugin-camera/www/CameraPopoverOptions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/public/plugins/cordova-plugin-contacts/www/Contact.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/public/plugins/cordova-plugin-contacts/www/ContactAddress.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/public/plugins/cordova-plugin-contacts/www/ContactError.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/public/plugins/cordova-plugin-contacts/www/ContactField.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/public/plugins/cordova-plugin-contacts/www/ContactFieldType.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/public/plugins/cordova-plugin-contacts/www/ContactFindOptions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/public/plugins/cordova-plugin-contacts/www/ContactName.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/public/plugins/cordova-plugin-contacts/www/ContactOrganization.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/public/plugins/cordova-plugin-contacts/www/contacts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/public/plugins/cordova-plugin-contacts/www/convertUtils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/public/plugins/cordova-plugin-device/www/device.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/public/telephone-telephone-module-es2015.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/public/telephone-telephone-module-es2015.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/public/telephone-telephone-module-es5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/public/telephone-telephone-module-es5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/dev/jbmerand/conference/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-land-hdpi/splash.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-land-mdpi/splash.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-land-xhdpi/splash.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-land-xxhdpi/splash.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-land-xxxhdpi/splash.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-port-hdpi/splash.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-port-mdpi/splash.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-port-xhdpi/splash.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-port-xxhdpi/splash.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-port-xxxhdpi/splash.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/launch_splash.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/splash.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/xml/config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/xml/file_paths.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/test/java/com/getcapacitor/myapp/ExampleUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/capacitor-cordova-android-plugins/cordova.variables.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/capacitor-cordova-android-plugins/src/main/java/org/apache/cordova/camera/CameraLauncher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/capacitor-cordova-android-plugins/src/main/java/org/apache/cordova/camera/CordovaUri.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/capacitor-cordova-android-plugins/src/main/java/org/apache/cordova/camera/ExifHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/capacitor-cordova-android-plugins/src/main/java/org/apache/cordova/camera/FileHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/capacitor-cordova-android-plugins/src/main/java/org/apache/cordova/camera/FileProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/capacitor-cordova-android-plugins/src/main/java/org/apache/cordova/contacts/ContactAccessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/capacitor-cordova-android-plugins/src/main/java/org/apache/cordova/contacts/ContactAccessorSdk5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/capacitor-cordova-android-plugins/src/main/java/org/apache/cordova/contacts/ContactInfoDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/capacitor-cordova-android-plugins/src/main/java/org/apache/cordova/contacts/ContactManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/capacitor-cordova-android-plugins/src/main/java/org/apache/cordova/device/Device.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/capacitor-cordova-android-plugins/src/main/res/xml/camera_provider_paths.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/capacitor.settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/0-es2015.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/0-es2015.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/0-es5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/0-es5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/1-es2015.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/1-es2015.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/1-es5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/1-es5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/10-es2015.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/10-es2015.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/10-es5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/10-es5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/11-es2015.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/11-es2015.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/11-es5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/11-es5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/12-es2015.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/12-es2015.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/12-es5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/12-es5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/13-es2015.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/13-es2015.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/13-es5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/13-es5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/14-es2015.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/14-es2015.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/14-es5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/14-es5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/15-es2015.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/15-es2015.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/15-es5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/15-es5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/16-es2015.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/16-es2015.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/16-es5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/16-es5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/17-es2015.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/17-es2015.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/17-es5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/17-es5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/18-es2015.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/18-es2015.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/18-es5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/18-es5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/19-es2015.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/19-es2015.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/19-es5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/19-es5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/2-es2015.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/2-es2015.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/2-es5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/2-es5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/20-es2015.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/20-es2015.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/20-es5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/20-es5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/21-es2015.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/21-es2015.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/21-es5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/21-es5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/22-es2015.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/22-es2015.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/22-es5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/22-es5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/23-es2015.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/23-es2015.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/23-es5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/23-es5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/24-es2015.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/24-es2015.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/24-es5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/24-es5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/25-es2015.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/25-es2015.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/25-es5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/25-es5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/26-es2015.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/26-es2015.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/26-es5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/26-es5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/27-es2015.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/27-es2015.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/27-es5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/27-es5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/28-es2015.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/28-es2015.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/28-es5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/28-es5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/29-es2015.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/29-es2015.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/29-es5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/29-es5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/3-es2015.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/3-es2015.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/3-es5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/3-es5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/30-es2015.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/30-es2015.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/30-es5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/30-es5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/31-es2015.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/31-es2015.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/31-es5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/31-es5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/32-es2015.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/32-es2015.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/32-es5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/32-es5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/33-es2015.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/33-es2015.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/33-es5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/33-es5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/34-es2015.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/34-es2015.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/34-es5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/34-es5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/35-es2015.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/35-es2015.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/35-es5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/35-es5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/36-es2015.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/36-es2015.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/36-es5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/36-es5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/37-es2015.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/37-es2015.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/37-es5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/37-es5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/38-es2015.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/38-es2015.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/38-es5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/38-es5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/39-es2015.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/39-es2015.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/39-es5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/39-es5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/4-es2015.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/4-es2015.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/4-es5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/4-es5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/40-es2015.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/40-es2015.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/40-es5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/40-es5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/41-es2015.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/41-es2015.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/41-es5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/41-es5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/42-es2015.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/42-es2015.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/42-es5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/42-es5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/43-es2015.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/43-es2015.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/43-es5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/43-es5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/44-es2015.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/44-es2015.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/44-es5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/44-es5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/45-es2015.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/45-es2015.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/45-es5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/45-es5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/46-es2015.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/46-es2015.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/46-es5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/46-es5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/47-es2015.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/47-es2015.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/47-es5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/47-es5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/48-es2015.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/48-es2015.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/48-es5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/48-es5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/49-es2015.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/49-es2015.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/49-es5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/49-es5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/5-es2015.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/5-es2015.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/5-es5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/5-es5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/50-es2015.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/50-es2015.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/50-es5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/50-es5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/51-es2015.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/51-es2015.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/51-es5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/51-es5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/52-es2015.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/52-es2015.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/52-es5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/52-es5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/53-es2015.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/53-es2015.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/53-es5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/53-es5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/54-es2015.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/54-es2015.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/54-es5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/54-es5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/55-es2015.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/55-es2015.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/55-es5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/55-es5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/56-es2015.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/56-es2015.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/56-es5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/56-es5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/57-es2015.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/57-es2015.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/57-es5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/57-es5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/58-es2015.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/58-es2015.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/58-es5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/58-es5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/59-es2015.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/59-es2015.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/59-es5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/59-es5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/6-es2015.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/6-es2015.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/6-es5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/6-es5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/60-es2015.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/60-es2015.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/60-es5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/60-es5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/61-es2015.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/61-es2015.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/61-es5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/61-es5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/62-es2015.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/62-es2015.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/62-es5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/62-es5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/63-es2015.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/63-es2015.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/63-es5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/63-es5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/64-es2015.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/64-es2015.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/64-es5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/64-es5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/65-es2015.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/65-es2015.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/65-es5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/65-es5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/66-es2015.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/66-es2015.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/66-es5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/66-es5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/67-es2015.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/67-es2015.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/67-es5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/67-es5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/68-es2015.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/68-es2015.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/68-es5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/68-es5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/69-es2015.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/69-es2015.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/69-es5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/69-es5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/7-es2015.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/7-es2015.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/7-es5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/7-es5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/70-es2015.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/70-es2015.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/70-es5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/70-es5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/71-es2015.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/71-es2015.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/71-es5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/71-es5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/72-es2015.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/72-es2015.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/72-es5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/72-es5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/73-es2015.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/73-es2015.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/73-es5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/73-es5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/74-es2015.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/74-es2015.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/74-es5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/74-es5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/75-es2015.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/75-es2015.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/75-es5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/75-es5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/76-es2015.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/76-es2015.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/76-es5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/76-es5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/77-es2015.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/77-es2015.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/77-es5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/77-es5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/78-es2015.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/78-es2015.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/78-es5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/78-es5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/79-es2015.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/79-es2015.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/79-es5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/79-es5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/8-es2015.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/8-es2015.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/8-es5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/8-es5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/80-es2015.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/80-es2015.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/80-es5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/80-es5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/81-es2015.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/81-es2015.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/81-es5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/81-es5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/82-es5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/82-es5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/9-es2015.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/9-es2015.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/9-es5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/9-es5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/assets/gdg-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/assets/icon/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/assets/icons/icon-128x128.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/assets/icons/icon-144x144.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/assets/icons/icon-152x152.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/assets/icons/icon-192x192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/assets/icons/icon-384x384.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/assets/icons/icon-512x512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/assets/icons/icon-72x72.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/assets/icons/icon-96x96.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/assets/shapes.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/common-es2015.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/common-es2015.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/common-es5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/common-es5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/core-js-js-es2015.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/core-js-js-es2015.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/core-js-js-es5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/core-js-js-es5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/css-shim-206ea950-3169f23e-js-es2015.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/css-shim-206ea950-3169f23e-js-es2015.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/css-shim-206ea950-3169f23e-js-es5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/css-shim-206ea950-3169f23e-js-es5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/css-shim-8178315f-8178315f-js-es2015.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/css-shim-8178315f-8178315f-js-es2015.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/css-shim-8178315f-8178315f-js-es5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/css-shim-8178315f-8178315f-js-es5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/css-shim-js-es2015.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/css-shim-js-es2015.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/css-shim-js-es5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/css-shim-js-es5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/default~notes-notes-module~telephone-telephone-module-es2015.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/default~notes-notes-module~telephone-telephone-module-es2015.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/default~notes-notes-module~telephone-telephone-module-es5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/default~notes-notes-module~telephone-telephone-module-es5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/dom-59290340-59290340-js-es2015.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/dom-59290340-59290340-js-es2015.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/dom-59290340-59290340-js-es5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/dom-59290340-59290340-js-es5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/dom-96781eef-a2fb04dd-js-es2015.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/dom-96781eef-a2fb04dd-js-es2015.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/dom-96781eef-a2fb04dd-js-es5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/dom-96781eef-a2fb04dd-js-es5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/dom-js-es2015.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/dom-js-es2015.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/dom-js-es5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/dom-js-es5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/focus-visible-70713a0c-js-es2015.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/focus-visible-70713a0c-js-es2015.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/focus-visible-70713a0c-js-es5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/focus-visible-70713a0c-js-es5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/hardware-back-button-5afe3cb0-js-es2015.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/hardware-back-button-5afe3cb0-js-es2015.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/hardware-back-button-5afe3cb0-js-es5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/hardware-back-button-5afe3cb0-js-es5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/home-home-module-es2015.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/home-home-module-es2015.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/home-home-module-es5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/home-home-module-es5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/index-69c37885-js-es2015.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/index-69c37885-js-es2015.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/index-69c37885-js-es5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/index-69c37885-js-es5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/input-shims-7a8a317c-js-es2015.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/input-shims-7a8a317c-js-es2015.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/input-shims-7a8a317c-js-es5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/input-shims-7a8a317c-js-es5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/ios-transition-56d4bc47-js-es2015.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/ios-transition-56d4bc47-js-es2015.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/ios-transition-56d4bc47-js-es5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/ios-transition-56d4bc47-js-es5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/main-es2015.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/main-es2015.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/main-es5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/main-es5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/manifest.webmanifest" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/md-transition-3d062e94-js-es2015.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/md-transition-3d062e94-js-es2015.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/md-transition-3d062e94-js-es5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/md-transition-3d062e94-js-es5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/notes-notes-module-es2015.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/notes-notes-module-es2015.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/notes-notes-module-es5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/notes-notes-module-es5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/polyfills-es2015.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/polyfills-es2015.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/polyfills-es5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/polyfills-es5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/runtime-es2015.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/runtime-es2015.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/runtime-es5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/runtime-es5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/session-session-module-es2015.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/session-session-module-es2015.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/session-session-module-es5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/session-session-module-es5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/sessions-sessions-module-es2015.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/sessions-sessions-module-es2015.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/sessions-sessions-module-es5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/sessions-sessions-module-es5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/shadow-css-4889ae62-23996f3f-js-es2015.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/shadow-css-4889ae62-23996f3f-js-es2015.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/shadow-css-4889ae62-23996f3f-js-es5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/shadow-css-4889ae62-23996f3f-js-es5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/shadow-css-9e778f69-c68d0961-js-es2015.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/shadow-css-9e778f69-c68d0961-js-es2015.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/shadow-css-9e778f69-c68d0961-js-es5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/shadow-css-9e778f69-c68d0961-js-es5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/speaker-speaker-module-es2015.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/speaker-speaker-module-es2015.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/speaker-speaker-module-es5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/speaker-speaker-module-es5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/speakers-speakers-module-es2015.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/speakers-speakers-module-es2015.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/speakers-speakers-module-es5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/speakers-speakers-module-es5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/status-tap-7ab22cb8-js-es2015.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/status-tap-7ab22cb8-js-es2015.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/status-tap-7ab22cb8-js-es5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/status-tap-7ab22cb8-js-es5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/styles-es2015.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/styles-es2015.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/styles-es5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/styles-es5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-add-circle-outline.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-add-circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-add.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-airplane.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-alarm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-albums.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-alert.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-american-football.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-analytics.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-aperture.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-apps.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-appstore.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-archive.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-arrow-back.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-arrow-down.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-arrow-dropdown-circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-arrow-dropdown.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-arrow-dropleft-circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-arrow-dropleft.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-arrow-dropright-circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-arrow-dropright.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-arrow-dropup-circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-arrow-dropup.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-arrow-forward.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-arrow-round-back.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-arrow-round-down.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-arrow-round-forward.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-arrow-round-up.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-arrow-up.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-at.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-attach.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-backspace.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-barcode.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-baseball.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-basket.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-basketball.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-battery-charging.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-battery-dead.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-battery-full.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-beaker.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-bed.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-beer.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-bicycle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-bluetooth.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-boat.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-body.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-bonfire.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-book.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-bookmark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-bookmarks.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-bowtie.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-briefcase.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-browsers.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-brush.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-bug.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-build.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-bulb.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-bus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-business.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-cafe.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-calculator.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-calendar.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-call.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-camera.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-car.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-card.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-cart.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-cash.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-cellular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-chatboxes.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-chatbubbles.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-checkbox-outline.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-checkbox.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-checkmark-circle-outline.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-checkmark-circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-checkmark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-clipboard.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-clock.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-close-circle-outline.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-close-circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-close.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-cloud-circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-cloud-done.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-cloud-download.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-cloud-outline.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-cloud-upload.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-cloud.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-cloudy-night.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-cloudy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-code-download.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-code-working.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-code.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-cog.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-color-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-color-filter.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-color-palette.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-color-wand.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-compass.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-construct.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-contact.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-contacts.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-contract.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-contrast.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-copy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-create.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-crop.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-cube.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-cut.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-desktop.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-disc.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-document.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-done-all.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-download.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-easel.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-egg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-exit.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-expand.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-eye-off.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-eye.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-fastforward.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-female.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-filing.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-film.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-finger-print.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-fitness.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-flag.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-flame.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-flash-off.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-flash.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-flashlight.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-flask.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-flower.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-folder-open.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-folder.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-football.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-funnel.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-gift.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-git-branch.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-git-commit.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-git-compare.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-git-merge.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-git-network.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-git-pull-request.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-glasses.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-globe.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-grid.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-hammer.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-hand.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-happy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-headset.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-heart-dislike.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-heart-empty.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-heart-half.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-heart.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-help-buoy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-help-circle-outline.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-help-circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-help.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-home.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-hourglass.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-ice-cream.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-image.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-images.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-infinite.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-information-circle-outline.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-information-circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-information.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-jet.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-journal.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-key.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-keypad.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-laptop.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-leaf.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-link.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-list-box.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-list.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-locate.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-lock.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-log-in.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-log-out.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-magnet.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-mail-open.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-mail-unread.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-mail.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-male.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-man.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-map.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-medal.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-medical.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-medkit.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-megaphone.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-menu.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-mic-off.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-mic.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-microphone.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-moon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-more.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-move.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-musical-note.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-musical-notes.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-navigate.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-notifications-off.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-notifications-outline.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-notifications.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-nuclear.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-nutrition.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-open.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-options.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-outlet.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-paper-plane.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-paper.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-partly-sunny.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-pause.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-paw.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-people.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-person-add.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-person.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-phone-landscape.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-phone-portrait.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-photos.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-pie.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-pin.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-pint.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-pizza.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-planet.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-play-circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-play.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-podium.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-power.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-pricetag.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-pricetags.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-print.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-pulse.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-qr-scanner.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-quote.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-radio-button-off.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-radio-button-on.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-radio.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-rainy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-recording.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-redo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-refresh-circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-refresh.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-remove-circle-outline.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-remove-circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-remove.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-reorder.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-repeat.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-resize.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-restaurant.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-return-left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-return-right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-reverse-camera.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-rewind.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-ribbon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-rocket.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-rose.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-sad.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-save.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-school.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-search.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-send.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-settings.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-share-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-share.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-shirt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-shuffle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-skip-backward.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-skip-forward.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-snow.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-speedometer.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-square-outline.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-square.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-star-half.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-star-outline.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-star.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-stats.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-stopwatch.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-subway.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-sunny.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-swap.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-switch.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-sync.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-tablet-landscape.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-tablet-portrait.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-tennisball.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-text.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-thermometer.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-thumbs-down.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-thumbs-up.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-thunderstorm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-time.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-timer.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-today.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-train.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-transgender.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-trash.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-trending-down.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-trending-up.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-trophy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-tv.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-umbrella.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-undo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-unlock.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-videocam.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-volume-high.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-volume-low.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-volume-mute.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-volume-off.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-walk.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-wallet.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-warning.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-watch.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-water.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-wifi.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-wine.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/ios-woman.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/logo-android.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/logo-angular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/logo-apple.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/logo-bitbucket.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/logo-bitcoin.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/logo-buffer.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/logo-chrome.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/logo-closed-captioning.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/logo-codepen.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/logo-css3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/logo-designernews.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/logo-dribbble.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/logo-dropbox.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/logo-euro.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/logo-facebook.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/logo-flickr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/logo-foursquare.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/logo-freebsd-devil.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/logo-game-controller-a.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/logo-game-controller-b.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/logo-github.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/logo-google.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/logo-googleplus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/logo-hackernews.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/logo-html5.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/logo-instagram.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/logo-ionic.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/logo-ionitron.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/logo-javascript.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/logo-linkedin.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/logo-markdown.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/logo-model-s.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/logo-no-smoking.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/logo-nodejs.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/logo-npm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/logo-octocat.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/logo-pinterest.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/logo-playstation.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/logo-polymer.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/logo-python.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/logo-reddit.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/logo-rss.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/logo-sass.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/logo-skype.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/logo-slack.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/logo-snapchat.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/logo-steam.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/logo-tumblr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/logo-tux.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/logo-twitch.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/logo-twitter.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/logo-usd.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/logo-vimeo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/logo-vk.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/logo-whatsapp.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/logo-windows.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/logo-wordpress.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/logo-xbox.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/logo-xing.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/logo-yahoo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/logo-yen.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/logo-youtube.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-add-circle-outline.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-add-circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-add.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-airplane.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-alarm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-albums.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-alert.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-american-football.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-analytics.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-aperture.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-apps.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-appstore.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-archive.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-arrow-back.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-arrow-down.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-arrow-dropdown-circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-arrow-dropdown.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-arrow-dropleft-circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-arrow-dropleft.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-arrow-dropright-circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-arrow-dropright.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-arrow-dropup-circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-arrow-dropup.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-arrow-forward.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-arrow-round-back.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-arrow-round-down.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-arrow-round-forward.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-arrow-round-up.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-arrow-up.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-at.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-attach.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-backspace.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-barcode.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-baseball.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-basket.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-basketball.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-battery-charging.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-battery-dead.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-battery-full.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-beaker.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-bed.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-beer.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-bicycle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-bluetooth.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-boat.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-body.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-bonfire.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-book.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-bookmark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-bookmarks.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-bowtie.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-briefcase.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-browsers.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-brush.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-bug.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-build.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-bulb.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-bus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-business.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-cafe.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-calculator.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-calendar.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-call.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-camera.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-car.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-card.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-cart.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-cash.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-cellular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-chatboxes.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-chatbubbles.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-checkbox-outline.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-checkbox.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-checkmark-circle-outline.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-checkmark-circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-checkmark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-clipboard.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-clock.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-close-circle-outline.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-close-circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-close.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-cloud-circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-cloud-done.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-cloud-download.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-cloud-outline.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-cloud-upload.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-cloud.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-cloudy-night.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-cloudy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-code-download.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-code-working.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-code.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-cog.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-color-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-color-filter.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-color-palette.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-color-wand.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-compass.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-construct.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-contact.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-contacts.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-contract.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-contrast.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-copy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-create.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-crop.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-cube.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-cut.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-desktop.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-disc.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-document.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-done-all.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-download.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-easel.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-egg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-exit.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-expand.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-eye-off.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-eye.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-fastforward.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-female.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-filing.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-film.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-finger-print.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-fitness.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-flag.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-flame.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-flash-off.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-flash.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-flashlight.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-flask.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-flower.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-folder-open.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-folder.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-football.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-funnel.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-gift.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-git-branch.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-git-commit.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-git-compare.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-git-merge.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-git-network.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-git-pull-request.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-glasses.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-globe.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-grid.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-hammer.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-hand.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-happy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-headset.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-heart-dislike.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-heart-empty.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-heart-half.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-heart.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-help-buoy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-help-circle-outline.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-help-circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-help.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-home.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-hourglass.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-ice-cream.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-image.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-images.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-infinite.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-information-circle-outline.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-information-circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-information.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-jet.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-journal.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-key.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-keypad.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-laptop.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-leaf.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-link.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-list-box.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-list.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-locate.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-lock.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-log-in.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-log-out.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-magnet.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-mail-open.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-mail-unread.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-mail.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-male.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-man.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-map.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-medal.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-medical.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-medkit.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-megaphone.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-menu.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-mic-off.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-mic.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-microphone.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-moon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-more.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-move.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-musical-note.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-musical-notes.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-navigate.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-notifications-off.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-notifications-outline.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-notifications.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-nuclear.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-nutrition.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-open.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-options.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-outlet.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-paper-plane.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-paper.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-partly-sunny.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-pause.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-paw.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-people.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-person-add.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-person.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-phone-landscape.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-phone-portrait.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-photos.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-pie.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-pin.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-pint.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-pizza.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-planet.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-play-circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-play.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-podium.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-power.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-pricetag.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-pricetags.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-print.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-pulse.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-qr-scanner.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-quote.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-radio-button-off.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-radio-button-on.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-radio.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-rainy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-recording.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-redo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-refresh-circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-refresh.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-remove-circle-outline.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-remove-circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-remove.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-reorder.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-repeat.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-resize.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-restaurant.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-return-left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-return-right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-reverse-camera.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-rewind.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-ribbon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-rocket.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-rose.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-sad.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-save.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-school.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-search.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-send.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-settings.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-share-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-share.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-shirt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-shuffle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-skip-backward.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-skip-forward.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-snow.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-speedometer.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-square-outline.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-square.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-star-half.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-star-outline.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-star.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-stats.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-stopwatch.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-subway.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-sunny.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-swap.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-switch.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-sync.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-tablet-landscape.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-tablet-portrait.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-tennisball.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-text.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-thermometer.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-thumbs-down.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-thumbs-up.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-thunderstorm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-time.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-timer.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-today.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-train.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-transgender.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-trash.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-trending-down.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-trending-up.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-trophy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-tv.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-umbrella.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-undo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-unlock.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-videocam.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-volume-high.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-volume-low.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-volume-mute.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-volume-off.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-walk.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-wallet.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-warning.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-watch.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-water.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-wifi.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-wine.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/svg/md-woman.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/swipe-back-35ad8e37-js-es2015.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/swipe-back-35ad8e37-js-es2015.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/swipe-back-35ad8e37-js-es5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/swipe-back-35ad8e37-js-es5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/swiper-bundle-ccdaac54-js-es2015.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/swiper-bundle-ccdaac54-js-es2015.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/swiper-bundle-ccdaac54-js-es5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/swiper-bundle-ccdaac54-js-es5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/tap-click-1f9d539e-js-es2015.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/tap-click-1f9d539e-js-es2015.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/tap-click-1f9d539e-js-es5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/tap-click-1f9d539e-js-es5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/telephone-telephone-module-es2015.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/telephone-telephone-module-es2015.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/telephone-telephone-module-es5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/telephone-telephone-module-es5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/vendor-es2015.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/vendor-es2015.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/vendor-es5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/app/vendor-es5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron/capacitor.config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/App/App.xcodeproj/project.pbxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/App/App.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/App/App.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/App/App.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/App/App/AppDelegate.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/App/App/Assets.xcassets/AppIcon.appiconset/AppIcon-20x20@1x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/App/App/Assets.xcassets/AppIcon.appiconset/AppIcon-20x20@2x-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/App/App/Assets.xcassets/AppIcon.appiconset/AppIcon-20x20@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/App/App/Assets.xcassets/AppIcon.appiconset/AppIcon-20x20@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/App/App/Assets.xcassets/AppIcon.appiconset/AppIcon-29x29@1x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/App/App/Assets.xcassets/AppIcon.appiconset/AppIcon-29x29@2x-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/App/App/Assets.xcassets/AppIcon.appiconset/AppIcon-29x29@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/App/App/Assets.xcassets/AppIcon.appiconset/AppIcon-29x29@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/App/App/Assets.xcassets/AppIcon.appiconset/AppIcon-40x40@1x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/App/App/Assets.xcassets/AppIcon.appiconset/AppIcon-40x40@2x-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/App/App/Assets.xcassets/AppIcon.appiconset/AppIcon-40x40@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/App/App/Assets.xcassets/AppIcon.appiconset/AppIcon-40x40@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/App/App/Assets.xcassets/AppIcon.appiconset/AppIcon-512@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/App/App/Assets.xcassets/AppIcon.appiconset/AppIcon-60x60@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/App/App/Assets.xcassets/AppIcon.appiconset/AppIcon-60x60@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/App/App/Assets.xcassets/AppIcon.appiconset/AppIcon-76x76@1x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/App/App/Assets.xcassets/AppIcon.appiconset/AppIcon-76x76@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/App/App/Assets.xcassets/AppIcon.appiconset/AppIcon-83.5x83.5@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/App/App/Assets.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/App/App/Assets.xcassets/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/App/App/Assets.xcassets/Splash.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/App/App/Assets.xcassets/Splash.imageset/splash-2732x2732-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/App/App/Assets.xcassets/Splash.imageset/splash-2732x2732-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/App/App/Assets.xcassets/Splash.imageset/splash-2732x2732.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/App/App/Base.lproj/LaunchScreen.storyboard" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/App/App/Base.lproj/Main.storyboard" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/App/App/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/App/App/capacitor.config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/App/App/config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/App/Podfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources/android/icon/drawable-hdpi-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources/android/icon/drawable-ldpi-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources/android/icon/drawable-mdpi-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources/android/icon/drawable-xhdpi-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources/android/icon/drawable-xxhdpi-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources/android/icon/drawable-xxxhdpi-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources/android/splash/drawable-land-hdpi-screen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources/android/splash/drawable-land-ldpi-screen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources/android/splash/drawable-land-mdpi-screen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources/android/splash/drawable-land-xhdpi-screen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources/android/splash/drawable-land-xxhdpi-screen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources/android/splash/drawable-land-xxxhdpi-screen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources/android/splash/drawable-port-hdpi-screen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources/android/splash/drawable-port-ldpi-screen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources/android/splash/drawable-port-mdpi-screen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources/android/splash/drawable-port-xhdpi-screen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources/android/splash/drawable-port-xxhdpi-screen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources/android/splash/drawable-port-xxxhdpi-screen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources/android/xml/network_security_config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources/ios/icon/icon-1024.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources/ios/icon/icon-20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources/ios/icon/icon-20@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources/ios/icon/icon-20@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources/ios/icon/icon-24@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources/ios/icon/icon-27.5@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources/ios/icon/icon-29.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources/ios/icon/icon-29@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources/ios/icon/icon-29@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources/ios/icon/icon-40.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources/ios/icon/icon-40@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources/ios/icon/icon-40@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources/ios/icon/icon-44@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources/ios/icon/icon-50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources/ios/icon/icon-50@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources/ios/icon/icon-60.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources/ios/icon/icon-60@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources/ios/icon/icon-60@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources/ios/icon/icon-72.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources/ios/icon/icon-72@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources/ios/icon/icon-76.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources/ios/icon/icon-76@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources/ios/icon/icon-83.5@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources/ios/icon/icon-86@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources/ios/icon/icon-98@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources/ios/icon/icon-small.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources/ios/icon/icon-small@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources/ios/icon/icon-small@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources/ios/icon/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources/ios/icon/icon@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources/ios/splash/Default-2436h.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources/ios/splash/Default-568h@2x~iphone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources/ios/splash/Default-667h.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources/ios/splash/Default-736h.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources/ios/splash/Default-Landscape-2436h.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources/ios/splash/Default-Landscape-736h.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources/ios/splash/Default-Landscape@2x~ipad.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources/ios/splash/Default-Landscape@~ipadpro.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources/ios/splash/Default-Landscape~ipad.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources/ios/splash/Default-Portrait@2x~ipad.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources/ios/splash/Default-Portrait@~ipadpro.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources/ios/splash/Default-Portrait~ipad.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources/ios/splash/Default@2x~iphone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources/ios/splash/Default@2x~universal~anyany.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources/ios/splash/Default~iphone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources/splash.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/app/telephone/telephone.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/app/telephone/telephone.page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/app/telephone/telephone.page.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ionic.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/../ionic.config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../src/app/app-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/app/sessions/session/notes/note.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../src/app/sessions/session/notes/note.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/app/sessions/session/notes/notes.page.html" beforeDir="false" afterPath="$PROJECT_DIR$/../src/app/sessions/session/notes/notes.page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/app/sessions/session/notes/notes.page.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../src/app/sessions/session/notes/notes.page.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/app/sessions/sessions.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../src/app/sessions/sessions.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main.ts" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="Android_Accelerated_Oreo" />
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="android" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="7" />
+    <option name="y" value="29" />
+    <option name="width" value="1400" />
+    <option name="height" value="837" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="android" type="b2602c69:ProjectViewProjectNode" />
+              <item name="android" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="android" type="b2602c69:ProjectViewProjectNode" />
+              <item name="android" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="android" type="b2602c69:ProjectViewProjectNode" />
+              <item name="capacitor" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView">
+        <subPane>
+          <expand>
+            <path>
+              <item name="android" type="1abcf292:AndroidViewProjectNode" />
+              <item name="android" type="e9137016:NonAndroidModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="Android_Accelerated_Oreo" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2019-10-14T09:32:41.888Z" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+    <property name="sync.plugin.last.upgrade.timestamp" value="1571047729858" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Android App.app">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All Tests" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests" temporary="true" nameIsGenerated="true">
+      <module name="android" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Android Instrumented Tests.All Tests" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="43ce7693-91bb-48e9-b585-5ce891ec180d" name="Default Changelist" comment="" />
+      <created>1570804545027</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1570804545027</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="7" y="29" width="1400" height="837" extended-state="0" />
+    <layout>
+      <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.34020618" />
+      <window_info id="Structure" order="2" side_tool="true" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Designer" order="4" />
+      <window_info id="Resources Explorer" order="5" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info id="Build Variants" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="TODO" order="1" />
+      <window_info anchor="bottom" id="Terminal" order="2" weight="0.32885906" />
+      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Logcat" order="4" weight="0.32885906" />
+      <window_info anchor="bottom" id="Android Profiler" order="5" />
+      <window_info anchor="bottom" id="Run" order="6" />
+      <window_info anchor="bottom" id="Debug" order="7" />
+      <window_info anchor="bottom" id="Build" order="8" visible="true" weight="0.32885906" />
+      <window_info anchor="right" id="Capture Analysis" order="0" />
+      <window_info anchor="right" id="Theme Preview" order="1" />
+      <window_info anchor="right" id="Palette&#9;" order="2" />
+      <window_info anchor="right" id="Device File Explorer" order="3" side_tool="true" />
+      <window_info anchor="right" id="Gradle" order="4" weight="0.3298969" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/.idea/codeStyles/Project.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="48" lean-forward="true" selection-start-column="48" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

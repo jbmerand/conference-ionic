@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">conference-ionic</string>
+    <string name="title_activity_main">conference-ionic</string>
+    <string name="package_name">dev.jbmerand.conference</string>
+    <string name="fileprovider_authority">dev.jbmerand.conference.fileprovider</string>
+    <string name="custom_url_scheme">dev.jbmerand.conference</string>
+</resources>

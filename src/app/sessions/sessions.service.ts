@@ -1,5 +1,6 @@
 import {Injectable} from '@angular/core';
 import {Note} from './session/notes/note';
+import {Observable, of} from 'rxjs';
 
 /**
  * Classe de service regroupant les méthodes utiles pour les pages commençant par
@@ -30,6 +31,7 @@ export class SessionsService {
             this.notes = JSON.parse(localStorage.getItem('NotesSessions'));
             if (this.notes.find(noteLS => noteLS.sessionId === note.sessionId)) {
                 this.notes.find(noteLS => noteLS.sessionId === note.sessionId).message = note.message;
+                this.notes.find(noteLS => noteLS.sessionId === note.sessionId).images = note.images;
             } else {
                 this.notes.push(note);
             }
@@ -42,16 +44,17 @@ export class SessionsService {
      * @param sessionId : string l'id de la session
      * @return : Note ou null
      */
-    recupererNoteParIdSession(sessionId: string): Note | null {
+    recupererNoteParIdSession(sessionId: string): Observable<Note> | Observable<null> {
         if (localStorage.getItem('NotesSessions')) {
             this.notes = JSON.parse(localStorage.getItem('NotesSessions'));
             if (this.notes.find(noteLS => noteLS.sessionId === sessionId)) {
-                return this.notes.find(noteLS => noteLS.sessionId === sessionId);
+                return of(this.notes.find(noteLS => noteLS.sessionId === sessionId));
             } else {
-                return null;
+                return of(null);
             }
         } else {
-            return null;
+            return of(null);
         }
     }
+
 }

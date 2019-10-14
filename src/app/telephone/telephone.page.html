@@ -1,0 +1,38 @@
+<ion-header class="ion-text-center">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button text="" icon="arrow-back"></ion-back-button>
+    </ion-buttons>
+    <ion-buttons slot="end">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>
+      Téléphone
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <ion-item>
+      <p>Plateforme : {{infoDevice?.platform}}</p>
+    </ion-item>
+    <ion-item>
+      <p>Version : {{infoDevice?.osVersion}}</p>
+    </ion-item>
+    <ion-item>
+      <p>UUID : {{infoDevice?.uuid}}</p>
+    </ion-item>
+    <ion-item>
+      <p>Modèle : {{infoDevice?.model}}</p>
+    </ion-item>
+    <ion-item>
+      <p>Connexion : {{infoReseau?.connectionType}}</p>
+    </ion-item>
+  </ion-list>
+  <ng-container *ngIf="isErreurRecuperationDeviceInfo || isErreurRecuperationReseauInfo">
+    <ion-text color="danger">
+      <p>Une erreur est survenue dans la récupération des informations.</p>
+    </ion-text>
+  </ng-container>
+</ion-content>

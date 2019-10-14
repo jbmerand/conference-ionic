@@ -16,14 +16,30 @@
             <h1>{{sessionData?.titleMobile || sessionData?.title}}</h1>
         </ion-card-header>
         <ion-card-content>
+            <ion-row>
+                <ion-fab-button (click)="prendreUnePhoto()" size="small">
+                    <ion-icon ios="ios-camera" md="md-camera"></ion-icon>
+                </ion-fab-button>
+                <ion-fab-button (click)="chercherUnePhoto()" size="small">
+                    <ion-icon name="images"></ion-icon>
+                </ion-fab-button>
+            </ion-row>
+
             <ng-container *ngIf="!isErreurRecuperationSession">
                 <form (ngSubmit)="enregistrerNote()">
                     <ion-textarea [(ngModel)]="contenuNote"
                                   auto-grow="true"
                                   name="contenuNote"
-                                  placeholder="Cette conférence...">
+                                  placeholder="Cette conférence..."
+                                  rows="4">
                     </ion-textarea>
-                    <ion-button (click)="enregistrerNote()" expand="block">
+                    <ion-card *ngFor="let image of imagesUrlBase64Sanitized">
+                        <ion-card-content> <img [src]="image"
+                                           alt="photo"></ion-card-content>
+                    </ion-card>
+
+                    <ion-button (click)="enregistrerNote()" expand="block"
+                                class="ion-margin-top">
                         Enregistrer
                     </ion-button>
                 </form>

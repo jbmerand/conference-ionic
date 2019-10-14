@@ -1,0 +1,7 @@
+{
+  "appId": "dev.jbmerand.conference",
+  "appName": "conference-ionic",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www"
+}
